@@ -1,0 +1,104 @@
+body {
+  background-color: #ffe6f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ff69b4;
+  margin-top: 20px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 5px;
+  font-size: 16px;
+}
+
+input {
+  width: 200px;
+}
+
+button {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff85c1;
+}
+
+.task-list {
+  margin-top: 20px;
+  padding: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-item span {
+  font-size: 16px;
+}
+
+.task-item button {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  width: 200px;
+  border: 2px solid pink;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hotpink;
+}
+
+strong {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 15px;
+}
+
